@@ -8,5 +8,10 @@ public class HelloWorld {
         System.out.println("Hello, what is your name: ");
         String name= input.nextLine();
         System.out.println("Hello " + name);
+        String msg = "Hello World";
+
+        for (char c : msg.toCharArray()) {
+            System.out.println(c);
+        }
     }
 }
